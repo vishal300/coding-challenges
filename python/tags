@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CRAWLED_FILE	starter.py	/^CRAWLED_FILE = PROJECT_NAME + '\/crawled.txt'$/;"	v
+DOMAIN_NAME	starter.py	/^DOMAIN_NAME = get_domain_name(HOMEPAGE)$/;"	v
+HOMEPAGE	starter.py	/^HOMEPAGE = 'https:\/\/medium.com\/'$/;"	v
+LinkFinder	link_finder.py	/^class LinkFinder(HTMLParser):$/;"	c
+NUMBER_OF_THREADS	starter.py	/^NUMBER_OF_THREADS = 8$/;"	v
+PROJECT_NAME	starter.py	/^PROJECT_NAME = 'Scraper'$/;"	v
+QUEUE_FILE	starter.py	/^QUEUE_FILE = PROJECT_NAME + '\/queue.txt'$/;"	v
+Scrap	scrap.py	/^class Scrap:$/;"	c
+__init__	link_finder.py	/^    def __init__(self,base_url,page_url):$/;"	m	class:LinkFinder
+__init__	scrap.py	/^    def __init__(self,project_name, base_url,domain_name):$/;"	m	class:Scrap
+add_links_to_queue	scrap.py	/^    def add_links_to_queue(links):$/;"	m	class:Scrap
+append_to_file	main.py	/^def append_to_file(path,data):$/;"	f
+base_url	scrap.py	/^    base_url = ''$/;"	v	class:Scrap
+boot	scrap.py	/^    def boot():$/;"	m	class:Scrap
+crawl	starter.py	/^def crawl():$/;"	f
+crawl_page	scrap.py	/^    def crawl_page(thread_name,page_url):$/;"	m	class:Scrap
+crawled	scrap.py	/^    crawled = set()$/;"	v	class:Scrap
+crawled_file	scrap.py	/^    crawled_file = ''$/;"	v	class:Scrap
+create_data_files	main.py	/^def create_data_files(project_name,base_url):$/;"	f
+create_jobs	starter.py	/^def create_jobs():$/;"	f
+create_project_dir	main.py	/^def create_project_dir(directory):$/;"	f
+create_workers	starter.py	/^def create_workers():$/;"	f
+delete_file_contents	main.py	/^def delete_file_contents(path):$/;"	f
+domain_name	scrap.py	/^    domain_name = ''$/;"	v	class:Scrap
+error	link_finder.py	/^    def error(self, message):$/;"	m	class:LinkFinder
+file_to_set	main.py	/^def file_to_set(file_name):$/;"	f
+gather_link	scrap.py	/^    def gather_link(page_url):$/;"	m	class:Scrap
+get_domain_name	domain.py	/^def get_domain_name(url):$/;"	f
+get_sub_domain_name	domain.py	/^def get_sub_domain_name(url):$/;"	f
+handle_starttag	link_finder.py	/^    def handle_starttag(self, tag, attrs):$/;"	m	class:LinkFinder
+page_links	link_finder.py	/^    def page_links(self):$/;"	m	class:LinkFinder
+project_name	scrap.py	/^    project_name = ''$/;"	v	class:Scrap
+queue	scrap.py	/^    queue = set()$/;"	v	class:Scrap
+queue	starter.py	/^queue = Queue()$/;"	v
+queue_file	scrap.py	/^    queue_file = ''$/;"	v	class:Scrap
+set_to_file	main.py	/^def set_to_file(links,file):$/;"	f
+update_file	scrap.py	/^    def update_file():$/;"	m	class:Scrap
+work	starter.py	/^def work():$/;"	f
+write_file	main.py	/^def write_file(path,data):$/;"	f
